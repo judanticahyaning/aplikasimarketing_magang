@@ -1,0 +1,124 @@
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.margin-top-log
+{
+    margin-top: 50px;
+    
+}
+.addmargin
+{
+    margin-top: 50px;
+}
+.minusmargin
+{
+    margin-top: -5px;
+}
+.add-side
+{
+    width: 200%;
+}
+/* Untuk mengganti semua header warna tabel */
+.bg-tabel
+{
+    background: linear-gradient(45deg, #0A5A97, #1572E8) !important; 
+    /* background: linear-gradient(45deg, #06418E, #1572E8) !important;  */
+      /* background: linear-gradient(45deg, #0A5A97, #48ABF7) !important; */
+}
+/* Untuk mengganti semua body warna tabel */
+.bg-body-tabel
+{
+ 
+    background: #ffffff;
+}
+/* Untuk mengganti background paling dasar*/
+.bg-panel
+{
+    padding-bottom: 70%;
+    background: linear-gradient(#8ACCED,#00A1F1);
+    /* warna alternatifnya :  */
+    /* background: #07407b; */
+}
+/* Untuk mengganti warna background di logo*/
+.bg-logo
+{
+    background: linear-gradient(-45deg, #06418E, #1572E8) !important; 
+    /* warna alternatifnya :  */
+    /* background: #07407b; */
+    /* background: linear-gradient(108deg, rgba(6,65,142,1) 0%, rgba(21,114,232,1) 50%, rgba(6,65,142,1) 100%);  */
+}
+  
+/* Untuk mengganti warna background di topbar*/
+.bg-topbar
+{       background: linear-gradient(-45deg, #0A5A97, #1572E8) !important;  
+    /* background: linear-gradient(-45deg, #06418E, #1572E8) !important;  */
+    /* warna alternatifnya :  */
+    /* background : #0275d8  ; Warna Primary Bootstrap */
+}
+
+
+.bg-modal
+{
+ background: #8ACCED;
+}
+.bg-head-modal
+{    
+    background: linear-gradient(45deg, #0275d8, #48ABF7) !important;
+    color: white;
+    /* background: linear-gradient(45deg, #000839, #48ABF7) ; */
+    /* background: linear-gradient(180deg, #0A5A97, #48ABF7) !important; */
+    /* background: #0275d8;  */
+    /* background: #07407b;  */
+    /* background: linear-gradient(#8ACCED,#00A1F1); */
+
+}
+.bg-body-modal
+{
+    /* background: #07407b; */
+
+}
+.bg-footer-modal
+{
+
+}
+.logmargin
+{
+    margin-top: 30px;
+}
+td{
+    color: #292b2c ;
+}
+h5{
+    
+}
+.field-icon {
+  float: right;
+  margin-right:  20px;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+}
+
+.container{
+  padding-top:50px;
+  margin: auto;
+}
+.swalDel {
+    background-color: rgb(254, 239, 227);
+    padding: 17px;
+    border: 1px solid #F0E1A1;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: #61534e;
+  }
+/* .th{
+
+} */
